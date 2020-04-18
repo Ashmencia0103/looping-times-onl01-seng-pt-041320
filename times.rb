@@ -8,8 +8,16 @@
 # if counter >= 7
 # break
 # end
-def using_times
-  7. times do
+
+# def using_times
+#   do loop
+#   puts "Wingardium Leviosa"
+# end
+
+counter = 0
+while counter < 10
   puts "Wingardium Leviosa"
-  end
+  counter += 1
 end
+
+#   7. times do
